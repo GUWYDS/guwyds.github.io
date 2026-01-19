@@ -35,6 +35,7 @@ portrait_caption: >-
 
 education:
   - name: Tongji University
+    logo: /assets/images/badges/PKU_red.png
     position: >-
       Major in Computer Science and Technology (Elite Class 2023) <br/>
       B.S. Student, GPA: 4.91/5, Rank: 3/136
@@ -42,21 +43,25 @@ education:
 
 experience:
   - name: Shanghai Jiao Tong University
+    logo: /assets/images/badges/PKU_red.png
     position: >-
       Research on Attacks on Distributed Training and Inference Frameworks for Medical LLM <br/>
       Advisor: Xiaohan Zhang
     date: Jul. 2025
   - name: Tongji University
+    logo: /assets/images/badges/PKU_red.png
     position: >-
       Endoscopic Report Generation Based on Multimodal Large Language Models <br/>
       Advisor: Miaojing Shi, Zijie Yue
     date: May 2025
   - name: Tongji University
+    logo: /assets/images/badges/PKU_red.png
     position: >-
       Natural Image Processing - Dark Domain Object Detection and Multi-view Crowd Counting <br/>
       Advisor: Miaojing Shi
     date: Mar. 2025
   - name: Publications
+    logo: /assets/images/badges/PKU_red.png
     position: >-
       First Author (Preparing to submit to Nature Machine Intelligence) <br/>
       Research affiliated with SJTU, currently in writing and revision stage.
