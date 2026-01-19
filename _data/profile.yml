@@ -1,3 +1,6 @@
+# ==========================================================
+# HEADER: Personal Info
+# ==========================================================
 primary_name: "Yifei Wang"
 secondary_name: "王一飞"
 navbar_name: "Yifei Wang"
@@ -5,18 +8,11 @@ navbar_name: "Yifei Wang"
 positions:
   - name: Undergraduate Student
   - name: Tongji University
-  # logo: /assets/images/badges/tongji.png  # Logo is optional
+  # logo: /assets/images/badges/tongji.png
 
 email: "ksish175@gmail.com"
-# cv_link: link-to-your-cv-file
-# gscholar: your_google_scholar_id
 github: https://github.com/GUWYDS
-# twitter: your_twitter_id
-# wechat_qrcode: /assets/images/etc/wechat.jpg
-# wechat_prompt: >-
-#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
-# linkedin: your-linked-in-id
-# orcid: 0000-0000-0000-0000
+# gscholar: your_google_scholar_id
 
 short_bio_text_justify: false
 short_bio: >-
@@ -31,80 +27,60 @@ short_bio: >-
 
 portrait_url: /assets/images/photos/portrait.png
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  Photo by Manja Vitolic on Unsplash (optional).
 
 # ==========================================================
-# [cite_start]CV SECTIONS ADDED BELOW [cite: 4-49]
+# RESUME SECTIONS (Corrected Schema)
 # ==========================================================
 
 education:
-  - university: Tongji University
-    degree: Major in Computer Science and Technology (Elite Class 2023)
-    location: Shanghai, CN
-    date: Sep 2023 - Present
-    details: "GPA: 4.90/5 Rank: 4/136"
+  - name: Tongji University
+    position: >-
+      Major in Computer Science and Technology (Elite Class 2023) <br/>
+      B.S. Student, GPA: 4.90/5, Rank: 4/136
+    date: Sep. 2023 - Present
 
-selected_honors:
-  - name: National Scholarship (rank 1/136)
-    year: 2025
-  - name: Outstanding Students, Tongji University
-    year: 2025
-  - name: First-Class Scholarship for Outstanding Undergraduate Students, Tongji University
-    year: 2024
-  - name: Freshmen Scholarship
-    year: 2023
-  - name: Received 10+ awards at national, provincial and university levels
-
-publications:
-  - title: "Research affiliated with Shanghai Jiao Tong University (Preparing to submit to Nature Machine Intelligence)"
-    role: First Author
-    status: Writing and revision stage
-    description: "Currently preparing to submit research affiliated with Shanghai Jiao Tong University to Nature Machine Intelligence."
-
-research_experience:
-  - title: Attacks on Distributed Training and Inference Frameworks for Medical LLM
-    institution: SJTU
-    advisor: Xiaohan Zhang
-    date: Jul 2025
-  - title: Endoscopic Report Generation Based on Multimodal Large Language Models
-    institution: Tongji University
-    advisor: Miaojing Shi, Zijie Yue
+experience:
+  - name: Shanghai Jiao Tong University
+    position: >-
+      Research on Attacks on Distributed Training and Inference Frameworks for Medical LLM <br/>
+      Advisor: Xiaohan Zhang
+    date: Jul. 2025
+  - name: Tongji University
+    position: >-
+      Endoscopic Report Generation Based on Multimodal Large Language Models <br/>
+      Advisor: Miaojing Shi, Zijie Yue
     date: May 2025
-  - title: Natural Image Processing (Dark Domain Object Detection and Multi-view Crowd Counting)
-    institution: Tongji University
-    advisor: Miaojing Shi
-    date: Mar 2025
-
-selected_competitions:
-  - name: "China International College Students' Innovation Competition"
-    year: 2025
-    award: "Silver Prize, Shanghai division (Founder & Team Leader); Gold Prize, Shanghai division (Team Member)"
-  - name: "ICAN University Students' Innovation and Entrepreneurship Competition"
-    year: 2025
-    award: "First Prize, Shanghai division; Third Prize, National Competition"
-  - name: "The National Undergraduate Embedded Chip and System Design Competition"
-    year: 2025
-    award: "Second Prize, Eastern Region; Lead algorithm developer for UAV anomaly detection"
-  - name: "China National Competition of RoboCup Robot World Cup"
-    year: 2024
-    award: "First Prize; Lunar robot navigation and robotic arm grasping"
-
-comprehensive_quality:
-  - role: Vice Director, Cross-campus Office
-    organization: Guohao Academy, Tongji University
-    date: Sep 2025
-    description: "Coordinated cross-campus academic events and student services"
-  - role: Summer Research Exchange
-    organization: ETH Zurich & EPFL
-    date: Jul 2025
-    description: "Engaged in academic exchange related to advanced AI systems"
-  - role: Probationary Member
-    organization: Communist Party of China
-    date: Jul 2025
-    description: "Participated in volunteer work, academic lectures, and student activities promoting scientific spirit"
-  - role: Sport & Music
+  - name: Tongji University
+    position: >-
+      Natural Image Processing - Dark Domain Object Detection and Multi-view Crowd Counting <br/>
+      Advisor: Miaojing Shi
+    date: Mar. 2025
+  - name: Publications
+    position: >-
+      First Author (Preparing to submit to Nature Machine Intelligence) <br/>
+      Research affiliated with SJTU, currently in writing and revision stage.
     date: Ongoing
-    description: "Guitarist; Gold Medalist in university athletics; Member of Tongji Football League & FA Cup"
-  - role: Academic Conferences & Independent Learning
-    date: Ongoing
-    description: "Self-driven study in LLM security and computer vision; Actively engaged in academic seminars and workshops"
+
+awards:
+  - name: National Scholarship (Rank 1/136)
+    date: 2025
+  - name: Outstanding Students, Tongji University
+    date: 2025
+  - name: First-Class Scholarship for Outstanding Undergraduate Students, Tongji University
+    date: 2024
+  - name: Freshmen Scholarship
+    date: 2023
+  - name: China International College Students' Innovation Competition - Silver Prize, Shanghai division (Founder & Team Leader)
+    date: 2025
+  - name: China International College Students' Innovation Competition - Gold Prize, Shanghai division (Team Member)
+    date: 2025
+  - name: First Prize at the China National Competition of RoboCup Robot World Cup
+    date: 2024
+  - name: ICAN University Students' Innovation and Entrepreneurship Competition - First Prize, Shanghai division; Third Prize, National Competition
+    date: 2025
+  - name: The National Undergraduate Embedded Chip and System Design Competition - Second Prize, Eastern Region
+    date: 2025
+
+# 综合素质 (放在这里作为一种特殊的 Experience 显示，或者你可以选择不放)
+# comprehensive_quality: ... (如果模板没有定义这个loop，写了也不会显示，建议合并到 experience 或 bio 中)
