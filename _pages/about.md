@@ -52,68 +52,89 @@ redirect_from:
     <i class="fas fa-link" aria-hidden="true"></i>
     <span>Website</span>
   </a>
+  <a class="quick-link" href="https://scholar.google.com/citations?user=6vSStBgAAAAJ&hl=zh-CN">
+    <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+    <span>Google Scholar</span>
+  </a>
 </div>
 
 I am particularly interested in safety risks that emerge at the systems and deployment level, where trusted model weights can still produce unsafe behavior due to compiler, runtime, precision, or distributed execution effects. I also care about connecting technical rigor with broader academic communication and public outreach.
 
 # 🔥 News
-- *2026.03* Ongoing work on **The Misevolution of Agents**, with a focus on emergent misalignment and action alignment in VLA systems.
-- *2026.03* Started **Trusted Weights, Treacherous Backends: Compiler-Triggered Backdoor Attacks** as first-author work in preparation for AAAI 2027.
-- *2025.11* **PrecisionDiff: Automated Detection of Precision-Induced Disagreements in Large Language Models** entered ASE 2026 review as first author.
-- *2025.07* Participated in summer research exchange activities with **ETH Zurich** and **EPFL**.
-- *2025.07* Began research on **reliability testing of medical model performance under distributed deployment**, targeting AAAI 2027.
-- *2025.05* Advanced the national innovation project on **endoscopic report generation based on multimodal large language models**.
+- *2026* Currently working on **trustworthy AI**, **self-evolving agents**, **multimodal reinforcement learning**, and **embodied intelligence grounded in physical interaction**.
+- *2026* Actively participating in **scientific research** and **internship opportunities**, with sustained interest in reliable, deployable, and safety-critical AI systems.
+- *2025-2026* Continuing first-author research on deployment reliability, compiler-triggered backdoor risks, and multimodal medical AI.
 
 # 📝 Publications
 
 <div class="publication-list">
   <article class="publication-card">
-    <div class="publication-card__top">
-      <span class="publication-card__venue">ASE 2026</span>
-      <span class="publication-card__status">Under Review</span>
+    <div class="publication-card__media">
+      <img src="images/publication-precisiondiff.jpg" alt="PrecisionDiff preview image">
     </div>
-    <h2 class="publication-card__title">
-      <a href="https://arxiv.org/pdf/2604.19790">PrecisionDiff: Automated Detection of Precision-Induced Disagreements in Large Language Models</a>
-    </h2>
-    <p class="publication-card__authors"><strong>Yifei Wang</strong>, collaborators with Shanghai Jiao Tong University, Nanyang Technological University, and Beihang University</p>
-    <p class="publication-card__meta">First Author | Independent Research</p>
-    <p class="publication-card__summary">An automated testing pipeline for detecting cross-precision disagreements in large language models, targeting deployment-aware safety evaluation under practical inference settings.</p>
-    <div class="publication-card__actions">
-      <a href="https://arxiv.org/pdf/2604.19790">Paper</a>
+    <div class="publication-card__body">
+      <div class="publication-card__top">
+        <span class="publication-card__venue">ASE 2026</span>
+        <span class="publication-card__status">Under Review</span>
+      </div>
+      <h2 class="publication-card__title">
+        <a href="https://arxiv.org/pdf/2604.19790">PrecisionDiff: Automated Detection of Precision-Induced Disagreements in Large Language Models</a>
+      </h2>
+      <p class="publication-card__authors"><strong>Yifei Wang</strong>, collaborators with Shanghai Jiao Tong University, Nanyang Technological University, and Beihang University</p>
+      <p class="publication-card__meta">First Author | Independent Research</p>
+      <p class="publication-card__summary">An automated testing pipeline for detecting cross-precision disagreements in large language models, targeting deployment-aware safety evaluation under practical inference settings.</p>
+      <div class="publication-card__actions">
+        <a href="https://arxiv.org/pdf/2604.19790">Paper</a>
+      </div>
     </div>
   </article>
 
   <article class="publication-card">
-    <div class="publication-card__top">
-      <span class="publication-card__venue">AAAI 2027</span>
-      <span class="publication-card__status">In Preparation</span>
+    <div class="publication-card__media">
+      <img src="images/publication-distributed-medical.jpg" alt="Distributed medical deployment research preview">
     </div>
-    <h2 class="publication-card__title">Reliability Testing of Medical Model Performance under Distributed Deployment</h2>
-    <p class="publication-card__authors"><strong>Yifei Wang</strong> | Advisors: Tianlin Li, Xiaohan Zhang, Xiaoyu Zhang</p>
-    <p class="publication-card__meta">First Author | SJTU, NTU, BUAA</p>
-    <p class="publication-card__summary">Studies how distributed frameworks such as vLLM and DeepSpeed induce backend-dependent behavior divergence, with emphasis on safety-critical medical deployment risks caused by operator fusion, parallel reduction, and precision truncation.</p>
+    <div class="publication-card__body">
+      <div class="publication-card__top">
+        <span class="publication-card__venue">AAAI 2027</span>
+        <span class="publication-card__status">In Preparation</span>
+      </div>
+      <h2 class="publication-card__title">Reliability Testing of Medical Model Performance under Distributed Deployment</h2>
+      <p class="publication-card__authors"><strong>Yifei Wang</strong> | Advisors: Tianlin Li, Xiaohan Zhang, Xiaoyu Zhang</p>
+      <p class="publication-card__meta">First Author | SJTU, NTU, BUAA</p>
+      <p class="publication-card__summary">Studies how distributed frameworks such as vLLM and DeepSpeed induce backend-dependent behavior divergence, with emphasis on safety-critical medical deployment risks caused by operator fusion, parallel reduction, and precision truncation.</p>
+    </div>
   </article>
 
   <article class="publication-card">
-    <div class="publication-card__top">
-      <span class="publication-card__venue">AAAI 2027</span>
-      <span class="publication-card__status">In Preparation</span>
+    <div class="publication-card__media">
+      <img src="images/publication-compiler-backdoor.jpg" alt="Compiler-triggered backdoor attacks preview">
     </div>
-    <h2 class="publication-card__title">Trusted Weights, Treacherous Backends: Compiler-Triggered Backdoor Attacks</h2>
-    <p class="publication-card__authors"><strong>Yifei Wang</strong> | Advisors: Tianlin Li, Xiaohan Zhang, Xiaoyu Zhang</p>
-    <p class="publication-card__meta">First Author | SJTU, NTU, BUAA</p>
-    <p class="publication-card__summary">Examines compiler-triggered backdoor behavior that does not reside in model weights, exposing a new attack vector that can evade static weight-based safety audits.</p>
+    <div class="publication-card__body">
+      <div class="publication-card__top">
+        <span class="publication-card__venue">AAAI 2027</span>
+        <span class="publication-card__status">In Preparation</span>
+      </div>
+      <h2 class="publication-card__title">Trusted Weights, Treacherous Backends: Compiler-Triggered Backdoor Attacks</h2>
+      <p class="publication-card__authors"><strong>Yifei Wang</strong> | Advisors: Tianlin Li, Xiaohan Zhang, Xiaoyu Zhang</p>
+      <p class="publication-card__meta">First Author | SJTU, NTU, BUAA</p>
+      <p class="publication-card__summary">Examines compiler-triggered backdoor behavior that does not reside in model weights, exposing a new attack vector that can evade static weight-based safety audits.</p>
+    </div>
   </article>
 
   <article class="publication-card">
-    <div class="publication-card__top">
-      <span class="publication-card__venue">National Project</span>
-      <span class="publication-card__status">2025</span>
+    <div class="publication-card__media">
+      <img src="images/publication-endoscopy-mllm.jpg" alt="Endoscopic report generation preview">
     </div>
-    <h2 class="publication-card__title">Endoscopic Report Generation Based on Multimodal Large Language Models</h2>
-    <p class="publication-card__authors">National-level Innovation and Entrepreneurship Project</p>
-    <p class="publication-card__meta">Medical Image Processing</p>
-    <p class="publication-card__summary">Focused on multimodal medical report generation, addressing challenges beyond conventional lesion recognition and connecting image understanding with clinically useful language output.</p>
+    <div class="publication-card__body">
+      <div class="publication-card__top">
+        <span class="publication-card__venue">National Project</span>
+        <span class="publication-card__status">2025</span>
+      </div>
+      <h2 class="publication-card__title">Endoscopic Report Generation Based on Multimodal Large Language Models</h2>
+      <p class="publication-card__authors">National-level Innovation and Entrepreneurship Project</p>
+      <p class="publication-card__meta">Medical Image Processing</p>
+      <p class="publication-card__summary">Focused on multimodal medical report generation, addressing challenges beyond conventional lesion recognition and connecting image understanding with clinically useful language output.</p>
+    </div>
   </article>
 </div>
 
@@ -153,6 +174,6 @@ I am particularly interested in safety risks that emerge at the systems and depl
   - Guitarist; gold medalist in university athletics; member of Tongji Football League and FA Cup.
 - *Ongoing* **Academic Conferences and Independent Learning**
   - Self-driven study in AI safety and computer vision, with active participation in seminars and workshops.
-- *Ongoing* **Social Media Creator | Xiaohongshu (Red)**
+- *Ongoing* **Social Media Creator Xiaohongshu (Red)**
   - Share research notes and technical insights in AI.
   - Treat documentation as an essential part of deep understanding and academic outreach.

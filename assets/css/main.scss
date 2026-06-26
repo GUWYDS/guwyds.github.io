@@ -220,11 +220,33 @@ h1:before, .anchor:before {
 }
 
 .publication-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
     padding: 1.35rem 1.4rem;
     border: 1px solid #e5ebf3;
     border-radius: 12px;
     background: linear-gradient(180deg, #ffffff 0%, #fbfcfe 100%);
     box-shadow: 0 10px 24px rgba(15, 23, 42, 0.04);
+}
+
+.publication-card__media {
+    position: relative;
+    width: 100%;
+}
+
+.publication-card__media img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #dbe3ef;
+    background: #eef2f7;
+}
+
+.publication-card__body {
+    min-width: 0;
 }
 
 .publication-card__top {
@@ -305,4 +327,11 @@ h1:before, .anchor:before {
 
 .publication-card__actions a:hover {
     text-decoration: underline !important;
+}
+
+@include breakpoint($medium) {
+    .publication-card {
+        grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+        align-items: start;
+    }
 }
