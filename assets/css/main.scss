@@ -222,7 +222,7 @@ h1:before, .anchor:before {
 .publication-card {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: .9rem;
     padding: 1.35rem 1.4rem;
     border: 1px solid #e5ebf3;
     border-radius: 12px;
@@ -238,9 +238,10 @@ h1:before, .anchor:before {
 .publication-card__media img {
     display: block;
     width: 100%;
-    aspect-ratio: 16 / 10;
+    max-width: 220px;
+    aspect-ratio: 4 / 3;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 8px;
     border: 1px solid #dbe3ef;
     background: #eef2f7;
 }
@@ -331,7 +332,13 @@ h1:before, .anchor:before {
 
 @include breakpoint($medium) {
     .publication-card {
-        grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+        grid-template-columns: 180px minmax(0, 1fr);
         align-items: start;
+        gap: 1.1rem;
+    }
+
+    .publication-card__media img {
+        width: 180px;
+        max-width: 180px;
     }
 }
