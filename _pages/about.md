@@ -14,7 +14,7 @@ redirect_from:
   <p class="hero-intro__eyebrow">Undergraduate Researcher</p>
   <h1 class="hero-intro__title">Yifei Wang</h1>
   <p class="hero-intro__lead">
-    I am an undergraduate student at Tongji University majoring in Computer Science and Technology (Elite Class 2023). My current interests center on AI infrastructure safety, emergent misalignment, LLM safety, and reliability issues in multimodal and agent systems.
+    I am an undergraduate student at Tongji University majoring in Computer Science and Technology (Elite Class 2023). My current interests center onAI Infrastructure, Trustworthy AI, AI for Healthcare, Physical Intelligence, MLLM and LLM & VLM & WAM & Agent Safety.
   </p>
 </div>
 
@@ -33,9 +33,11 @@ redirect_from:
   </div>
   <div class="info-card">
     <h3>Research Focus</h3>
-    <p>AI Safety</p>
-    <p>LLM and VLM Reliability</p>
-    <p>Agent Safety and Deployment Risks</p>
+    <p>AI Infrastructure</p>
+    <p>Trustworthy AI</p>
+    <p>AI for Healthcare</p>
+    <p>Physical Intelligence and MLLM</p>
+    <p>LLM & VLM & WAM & Agent Safety</p>
   </div>
 </div>
 
@@ -58,7 +60,7 @@ redirect_from:
   </a>
 </div>
 
-I am particularly interested in safety risks that emerge at the systems and deployment level, where trusted model weights can still produce unsafe behavior due to compiler, runtime, precision, or distributed execution effects. I also care about connecting technical rigor with broader academic communication and public outreach.
+I hold full-stack AI expertise spanning AI Infrastructure, Physical Intelligence and MLLMs, and my research explores the cutting-edge frontiers and practical societal value of artificial intelligence, with a core focus on Trustworthy AI, AI for Healthcare, and safety across LLMs, VLMs, WAMs and autonomous agents.
 
 # 🔥 News
 - *2026* Currently working on **trustworthy AI**, **self-evolving agents**, **multimodal reinforcement learning**, and **embodied intelligence grounded in physical interaction**.
