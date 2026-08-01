@@ -24,6 +24,7 @@ redirect_from:
     <p>Tongji University</p>
     <p>Computer Science and Technology (Elite Class 2023)</p>
     <p>Sep 2023 - Present</p>
+    <p>HKUST CSE PHD incoming</p>
   </div>
   <div class="info-card">
     <h3>Academic Standing</h3>
@@ -66,6 +67,7 @@ I hold full-stack AI expertise spanning AI Infrastructure, Physical Intelligence
 - *2026* Currently working on **trustworthy AI**, **self-evolving agents**, **multimodal reinforcement learning**, and **embodied intelligence grounded in physical interaction**.
 - *2026* Actively participating in **scientific research** and **internship opportunities**, with sustained interest in reliable, deployable, and safety-critical AI systems.
 - *2025-2026* Continuing first-author research on deployment reliability, compiler-triggered backdoor risks, and multimodal medical AI.
+- *2026* I am interning at AgiBot based in Shanghai, contributing to VLM Agents algorithm projects.
 
 # 📝 Publications
 
