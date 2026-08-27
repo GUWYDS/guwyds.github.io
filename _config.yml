@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yifei Wang"
-description              : "Undergraduate researcher in AI safety, trustworthy AI systems, and multimodal model reliability."
+description              : "Undergraduate researcher in trustworthy AI and multimodal model reliability."
 repository               : "GUWYDS/guwyds.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,9 +23,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yifei Wang"
   avatar           : "images/portrait.png"
-  bio              : "Tongji University | Computer Science and Technology (Elite Class 2023)"
+  bio              : "Tongji University | HKUST"
   location         : "Shanghai, China"
-  employer         : "Undergraduate"
+  employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=6vSStBgAAAAJ&hl=zh-CN"
   email            : "ksish175@gmail.com"
