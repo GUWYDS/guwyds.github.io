@@ -70,13 +70,6 @@ I hold full-stack AI expertise spanning AI Infrastructure, Physical Intelligence
 
 # 📑 Publications & Research
 
-<style>
-.paper-box-text-full {
-  width: 100%;
-  flex: 1 1 100%;
-}
-</style>
-
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div>
@@ -149,9 +142,18 @@ I hold full-stack AI expertise spanning AI Infrastructure, Physical Intelligence
 
 
 <div class='paper-box'>
-<div class='paper-box-text paper-box-text-full' markdown="1">
+<div class='paper-box-image'>
+<div>
+<div class="badge">Ongoing</div>
+<img src='images/publication-evoguard.png'
+     alt="EvoGuard preview"
+     width="100%">
+</div>
+</div>
 
-### EvoGuard: Defending Self-Evolving Auto-Research Systems against Scientific Misevolution
+<div class='paper-box-text' markdown="1">
+
+### EvoGuard: Defending Self-Evolving Auto-Research Systems against Scientific F
 
 **Yifei Wang** · Ongoing · Advisor: Prof. Yi R. (May) Fung
 
@@ -163,7 +165,16 @@ I hold full-stack AI expertise spanning AI Infrastructure, Physical Intelligence
 
 
 <div class='paper-box'>
-<div class='paper-box-text paper-box-text-full' markdown="1">
+<div class='paper-box-image'>
+<div>
+<div class="badge">Ongoing</div>
+<img src='images/publication-vla-cloud-edge.png'
+     alt="Cloud-edge consistency for VLA models preview"
+     width="100%">
+</div>
+</div>
+
+<div class='paper-box-text' markdown="1">
 
 ### Cloud-Edge Consistency for VLA Models
 
@@ -177,7 +188,16 @@ I hold full-stack AI expertise spanning AI Infrastructure, Physical Intelligence
 
 
 <div class='paper-box'>
-<div class='paper-box-text paper-box-text-full' markdown="1">
+<div class='paper-box-image'>
+<div>
+<div class="badge">Ongoing</div>
+<img src='images/publication-multi-teacher-opd.png'
+     alt="Multi-Teacher On-Policy Distillation preview"
+     width="100%">
+</div>
+</div>
+
+<div class='paper-box-text' markdown="1">
 
 ### Multi-Teacher On-Policy Distillation
 
