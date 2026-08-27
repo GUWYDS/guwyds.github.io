@@ -14,22 +14,21 @@ redirect_from:
   <p class="hero-intro__eyebrow">Undergraduate Researcher</p>
   <h1 class="hero-intro__title">Yifei Wang</h1>
   <p class="hero-intro__lead">
-    I am an undergraduate student at Tongji University majoring in Computer Science and Technology (Elite Class 2023). My current interests center onAI Infrastructure, Trustworthy AI, AI for Healthcare, Physical Intelligence, MLLM and LLM & VLM & WAM & Agent Safety.
+    I am an undergraduate student at Tongji University majoring in Computer Science and Technology (Elite Class 2023). My current interests center on AI Infrastructure, Trustworthy AI, AI for Healthcare, Physical Intelligence, MLLM and LLM & VLM & WAM & Agent Safety.
   </p>
 </div>
 
 <div class="info-grid">
   <div class="info-card">
     <h3>Education</h3>
-    <p>Tongji University</p>
-    <p>Computer Science and Technology (Elite Class 2023)</p>
-    <p>Sep 2023 - Present</p>
-    <p>HKUST CSE PHD incoming</p>
+    <p>Tongji University CS</p>
+    <p>Incoming HKUST CSE PHD </p>
   </div>
   <div class="info-card">
     <h3>Academic Standing</h3>
     <p>GPA: 4.92/5</p>
     <p>Rank: 3/125</p>
+    <p>IELTS: 7.0</p>
     <p>National Scholarship 2025</p>
   </div>
   <div class="info-card">
