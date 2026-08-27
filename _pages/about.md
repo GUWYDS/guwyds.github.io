@@ -215,9 +215,90 @@ I hold full-stack AI expertise spanning AI Infrastructure, Physical Intelligence
 - *2023* Freshmen Scholarship.
 - *2023-2026* Received more than **10 awards** at national, provincial, and university levels.
 
-# 🎓 Educations
-- *Sep 2023 - Present*, **Tongji University**, Computer Science and Technology (Elite Class 2023), Shanghai, China.
-- *Fall 2027*, **Hong Kong University of Science and Technology**, Incoming PHD of MMSense Lab CSE, Advised by Prof. Yi R. (May) Fung
+<style>
+.education-card {
+  position: relative;
+  margin: 1rem 0;
+  padding: 1.4rem 11rem 1.4rem 1.5rem;
+  border: 1px solid #e1e6ec;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.education-school {
+  margin-bottom: 0.35rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.education-degree {
+  color: #44546a;
+  line-height: 1.6;
+}
+
+.education-date {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.3rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: 8px;
+  background: #f1f3f6;
+  color: #44546a;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.education-date i {
+  margin-right: 0.35rem;
+}
+
+@media (max-width: 700px) {
+  .education-card {
+    padding: 1.2rem;
+  }
+
+  .education-date {
+    position: static;
+    display: inline-block;
+    margin-top: 0.8rem;
+  }
+}
+</style>
+
+# 🎓 Education
+
+<div class="education-card">
+  <div class="education-school">
+    Hong Kong University of Science and Technology
+  </div>
+
+  <div class="education-degree">
+    Incoming Ph.D. Student in Computer Science and Engineering,
+    MMSense Lab<br>
+    Advised by Prof. Yi R. (May) Fung
+  </div>
+
+  <div class="education-date">
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    Fall 2027
+  </div>
+</div>
+
+<div class="education-card">
+  <div class="education-school">
+    Tongji University
+  </div>
+
+  <div class="education-degree">
+    B.Eng. in Computer Science and Technology (Elite Class 2023)
+  </div>
+
+  <div class="education-date">
+    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+    Sep 2023 – Present
+  </div>
+</div>
 
 # 🏆 Competitions
 - *2025*, **China International College Students' Innovation Competition**
