@@ -14,7 +14,7 @@ redirect_from:
   <p class="hero-intro__eyebrow">Undergraduate Researcher 🎓</p>
   <h1 class="hero-intro__title">Yifei Wang 👋</h1>
   <p class="hero-intro__lead">
-    I am an undergraduate student at Tongji University majoring in Computer Science and Technology (Elite Class 2023). My current interests center on AI Infrastructure, Trustworthy AI, AI for Healthcare, Physical Intelligence, MLLM and LLM & VLM & WAM & Agent Safety.
+    I am an undergraduate student at Tongji University majoring in Computer Science and Technology (Elite Class 2023). My current interests center on AI Infrastructure, RSI, MLLM, Post-training and LLM & VLM & VLA & Agent Safety.
   </p>
 </div>
 
@@ -34,10 +34,10 @@ redirect_from:
   <div class="info-card">
     <h3>Research Focus 🔬</h3>
     <p>AI Infrastructure</p>
-    <p>Trustworthy AI</p>
+    <p>RSI</p>
     <p>AI for Healthcare</p>
-    <p>Physical Intelligence and MLLM</p>
-    <p>LLM & VLM & WAM & Agent Safety</p>
+    <p>MLLM and its Post-training</p>
+    <p>LLM & VLM & VLA & Agent Safety</p>
   </div>
 </div>
 
@@ -60,7 +60,7 @@ redirect_from:
   </a>
 </div>
 
-I hold full-stack AI expertise spanning AI Infrastructure, Physical Intelligence and MLLMs, and my research explores the cutting-edge frontiers and practical societal value of artificial intelligence, with a core focus on Trustworthy AI, AI for Healthcare, and safety across LLMs, VLMs, WAMs and autonomous agents.
+I hold full-stack AI expertise spanning AI Infrastructure, Physical Intelligence and MLLMs, and my research explores the cutting-edge frontiers and practical societal value of artificial intelligence, with a core focus on AI Infrastructure, RSI, MLLM, Post-training and LLM & VLM & VLA & Agent Safety.
 
 # 🔥 News
 - *2026* Currently working on **trustworthy AI**, **self-evolving agents**, **multimodal reinforcement learning**, and **embodied intelligence grounded in physical interaction**.
