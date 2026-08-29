@@ -153,7 +153,7 @@ I hold full-stack AI expertise spanning AI Infrastructure, Physical Intelligence
 
 <div class='paper-box-text' markdown="1">
 
-### EvoGuard: Defending Self-Evolving Auto-Research Systems against Scientific F
+### EvoGuard: Defending Self-Evolving Auto-Research Systems against Scientific Misevolution
 
 **Yifei Wang** · Ongoing · Advisor: Prof. Yi R. (May) Fung
 
